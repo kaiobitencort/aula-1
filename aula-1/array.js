@@ -1,48 +1,51 @@
-const listaLivros = [
+const edFilmes = [
   {
-    titulo: "Homem de Ferro",
-    preco: 10
+  titulo: "Homem de Ferro",
+  preco: 10
   },
   {
     titulo: "Capitão América: O Primeiro Vingador",
-    preco: 68
+    preco: 12
   },
   {
     titulo: "Thor",
-    preco: 80
+    preco: 14
   },
   {
-  titulo: "Os Vingadores",
-  preco: 187
+    titulo: "Os Vingadores",
+    preco: 16
   },
   {
     titulo: "Guardiões da Galáxia",
-    preco: 195
-  },
+    preco: 18
+  }
+]
+
+const edMarvel = [
   {
     titulo: "Homem-Formiga",
-    preco: 200
+    preco: 20
   },
   {
     titulo: "Doutor Estranho",
-    preco: 255
+    preco: 22
   },
   {
     titulo: "Pantera Negra",
-    preco: 28
+    preco: 24
   },
   {
     titulo: "Capitã Marvel",
-    preco: 25
+    preco: 26
   },
   {
     titulo: "Homem-Aranha: Longe de Casa",
-    preco: 275
+    preco: 28
   },
   {
     titulo: "Vingadores: Ultimato",
-    preco: 667
-  },
+    preco: 30
+  }
 ]
 
-module.exports = listaLivros
+module.exports = { edFilmes, edMarvel }

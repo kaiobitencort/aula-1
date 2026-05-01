@@ -1,4 +1,4 @@
-const { edGames, edJames } = require('./arrays');
+const { edFilmes, edMarvel } = require('./array');
 
 function juntaListas(lista1, lista2) {
     let listaFinal = [];
@@ -42,5 +42,4 @@ function juntaListas(lista1, lista2) {
     return listaFinal;
 }
 
-console.log(juntaListas(edGames, edJames)) 
- 
+console.log(juntaListas(edFilmes, edMarvel))
